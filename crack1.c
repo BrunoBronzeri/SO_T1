@@ -129,7 +129,7 @@ int main(int argc, char* argv[]) {
 
  
     if(argc < 3) {
-        printf("Usage: %s <threads> <dict file>\n", argv[0]);
+        printf("Usage: %s <threads> <dict file> <hashes file>\n", argv[0]);
         return 1;
     }
 
